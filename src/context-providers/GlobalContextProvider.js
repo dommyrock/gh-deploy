@@ -23,7 +23,6 @@ export const GlobalContext = createContext(initialState);
 // Provider component
 export const GlobalProvider = (props) => {
   const [state, dispatch] = useReducer(transactionReducer, initialState);
-  debugger;
   //#region  Actions
 
   //delete after 500ms delay (like debounce...)

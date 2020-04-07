@@ -3,7 +3,7 @@ import { DragDropContext, Draggable, Droppable } from "react-beautiful-dnd";
 // import uuidv4 from "uuidv4/v4"; guid library, dont have npm for it here
 
 const DraggableList = (dataArray) => {
-  debugger;
+  // debugger;
   console.log(dataArray);
 
   const [columns, setColumns] = useState(dataArray); //was "columnsFromBackend"
