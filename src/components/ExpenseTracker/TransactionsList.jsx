@@ -8,6 +8,7 @@ import styles from "./expenses.module.css";
 export const TransactionList = () => {
   const { transactions, tasksFromBackend } = useContext(GlobalContext); //this is the difference ....... i need to pass data from outside of this function like itemsFromBackend to items:
 
+  // const [state, setstate] = React.useState(tasksFromBackend); remove exta
   //remember to spread so we get array of objects out (not the [objects], one level lower.)!
   const formated = [
     ...transactions.map((object) => {
@@ -38,12 +39,7 @@ export const TransactionList = () => {
     //   items: []
     // }
   };
-  // debugger;
-  // console.log(tasksFromBackend); conclusion ... need to addchildren to Draglisr comp...DragListItems and render each
-  // console.log("formated");
-  // // console.log(...formated);
-  // console.log(formated);
-
+  debugger;
   return (
     <>
       <h3>History</h3>
@@ -52,7 +48,7 @@ export const TransactionList = () => {
           <Transaction key={transaction.id} transaction={transaction} />
         ))}
       </ul>
-      {/* <DragList {...columnsFromBackend} /> TODO -move this component to separate route and test adding items to it solo... than make route w nav bar/tabs for O(n)*/}
+      <DragList {...columnsFromBackend} />
     </>
   );
 };

@@ -19,8 +19,8 @@ const ExampleHighlighter = () => {
         <Link to="/expenses">
           <h2>Expenses calculator example</h2>
         </Link>
-        <Link to="/stream">
-          <h2>Stream route</h2>
+        <Link to="/drag">
+          <h2>Draggable/droppable</h2>
         </Link>
       </div>
       <div className="two-columns-row" style={center_children}>
