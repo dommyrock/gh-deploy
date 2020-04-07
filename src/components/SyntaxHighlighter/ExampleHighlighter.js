@@ -46,6 +46,8 @@ const ExampleHighlighter = () => {
           <h2>dont even need text</h2>
         </div>
       </div>
+      <h2>testing img linking(by default react knows they are in pub folder)</h2>
+      <img src={process.env.PUBLIC_URL + "/big-o-running-time-complexity.png"} alt="image" />
     </>
   );
 };
