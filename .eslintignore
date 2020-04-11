@@ -5,3 +5,7 @@ dist
 # Ignore built files except build/index.js
 build/*
 !build/index.js
+
+# Ignore these files too#
+App.test.js
+serviceWorker.js
