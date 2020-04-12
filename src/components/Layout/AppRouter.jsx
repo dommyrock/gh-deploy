@@ -7,7 +7,7 @@ import GithubFeaturedList from "../SyntaxHighlighter/GithubFeatured/GithubFeatur
 import HoverableTableExample from "../SyntaxHighlighter/tables/HoverableTableExample";
 import DraggableExample from "../draggableComponent/DraggableExample";
 
-const AppRouter = () => {
+export default function AppRouter() {
   return (
     <Switch>
       <Route exact path="/" component={ExampleHighlighter} />
@@ -18,8 +18,7 @@ const AppRouter = () => {
       <Route exact path="/drag" component={DraggableExample} />
     </Switch>
   );
-};
-export default AppRouter;
+}
 
 //Scroll to element in view https://stackoverflow.com/questions/43441856/reactjs-how-to-scroll-to-an-element
 // or https://stackoverflow.com/questions/40280369/use-anchors-with-react-router
