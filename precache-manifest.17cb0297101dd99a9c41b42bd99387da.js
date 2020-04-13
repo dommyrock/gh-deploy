@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cc4b5c170aacacd1efb24abbe6594722",
+    "revision": "d4c6c2f84e72ec7de8b762257f8e3b59",
     "url": "/gh-deploy/index.html"
   },
   {
-    "revision": "e7d806c0f17d49446b1c",
-    "url": "/gh-deploy/static/css/main.881f8000.chunk.css"
+    "revision": "b51e8e4f6e1a4e295a92",
+    "url": "/gh-deploy/static/css/main.83bf5f0e.chunk.css"
   },
   {
-    "revision": "7a3431b12a266da774d8",
-    "url": "/gh-deploy/static/js/2.e90793e9.chunk.js"
+    "revision": "d281e80d5170ed2a1475",
+    "url": "/gh-deploy/static/js/2.bfd10362.chunk.js"
   },
   {
     "revision": "0b08544f54c9906705be39c03b7e79ad",
-    "url": "/gh-deploy/static/js/2.e90793e9.chunk.js.LICENSE.txt"
+    "url": "/gh-deploy/static/js/2.bfd10362.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e7d806c0f17d49446b1c",
-    "url": "/gh-deploy/static/js/main.d1787045.chunk.js"
+    "revision": "b51e8e4f6e1a4e295a92",
+    "url": "/gh-deploy/static/js/main.f4bccde5.chunk.js"
   },
   {
     "revision": "e90ff2c9e80c00f79125",
@@ -34,5 +34,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "deb42adb4b24ea32a5e9e1f72705de0c",
     "url": "/gh-deploy/static/media/bubble-sort-reversed.deb42adb.gif"
+  },
+  {
+    "revision": "c3fe77452c26ecec395855dd3696de1a",
+    "url": "/gh-deploy/static/media/insertion-sort-reversed.c3fe7745.gif"
   }
 ]);
